@@ -38,17 +38,21 @@
                         <td><%=u.getNome()%></td>
                         <td><%=u.getSobrenome()%></td>
                         <td><a href="FrontControllerServlet?control=Visualiza&id=<%=u.getId()%>&edit=0" class="btn btn-primary">Visualizar</a></td>
+                        <!--
                         <td><a href="FrontControllerServlet?control=Visualiza&id=<%=u.getId()%>&edit=1" class="btn btn-default">Editar</a></td>
                         <td><a href="FrontControllerServlet?control=Deleta&id=<%=u.getId()%>"  onclick="return confirm('Tem certeza ?')" class="btn btn-danger">Excluir</a></td>
-                    </tr>
+                        -->
+                        </tr>
                     <%}%>
                 </tbody>
                 <%}%>
             </table>
+            <!--
             <a href="cadastraUsuario.jsp" class="btn btn-success">Cadastro de Usuario</a>
+            -->
             <a href="/appLp3/index.html" class="btn btn-danger">Voltar</a>
             <br><br>
-           
+            <!--
             <div class="busca text-right">
                 <form class="form-inline" action="FrontControllerServlet?control=Busca" method="post">
                     <div class="form-group">
@@ -57,7 +61,7 @@
                     </div>
                     <input type="submit" class="btn btn-warning" value="Buscar">
                 </form>
-            </div>
+            </div>-->
     </body>
 
 </html>
