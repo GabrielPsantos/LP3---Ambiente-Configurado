@@ -6,6 +6,6 @@ public final class UsuarioDAOFactory {
     }
 
     public static UsuarioDAO getUsuarioDAO() {
-        return new UsuarioDAOImpl();
+        return new UsuarioDAOJPAImpl();
     }
 }
