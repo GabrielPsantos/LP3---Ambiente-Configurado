@@ -57,9 +57,9 @@ class UsuarioDAOImpl implements UsuarioDAO {
             StringBuilder sbSelect = new StringBuilder();
             sbSelect.append("SELECT usuario_id, nome, sobrenome FROM ");
             sbSelect.append(UsuarioConstantes.USUARIO_TABLE_NAME);
-            sbSelect.append(" WHERE nome = ?");
+            sbSelect.append(" WHERE nome like ?");
             stmtSelect = conn.prepareStatement(sbSelect.toString());
-            stmtSelect.setString(1, nome);
+            stmtSelect.setString(1, "%"+nome+"%");
             rs = stmtSelect.executeQuery();
             result = UsuarioUtil.makeUsuarioObjectsFromResultSet(rs);
         } catch (SQLException ex) {

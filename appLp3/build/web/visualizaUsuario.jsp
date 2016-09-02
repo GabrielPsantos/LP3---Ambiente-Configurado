@@ -18,8 +18,7 @@
 
     <div class="container">
         <h1>Visualiza de Usuario</h1>
-        <form method="post" action="FrontControllerServlet?control=Cadastra">
-            <div class="form-group">
+        <div class="form-group">
                 <label>Nome :</label>
                 <label class="form-control">${usuario.getNome()}</label>
             </div>
@@ -27,10 +26,7 @@
                 <label>Sobrenome :</label>
                 <label class="form-control">${usuario.getSobrenome()}</label>
             </div>
-            <input class="btn btn-success" type="submit" value="Cadastrar Usuario" />
-            <br><br>
             <a href="FrontControllerServlet?control=Lista" class="btn btn-warning">Voltar</a>
-        </form>
     </div>
 
 </html>

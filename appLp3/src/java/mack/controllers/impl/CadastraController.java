@@ -28,8 +28,13 @@ public class CadastraController extends AbstractController {
             String sobrenome = this.getRequest().getParameter("sobrenome");
             dao.criaUsuario(nome,sobrenome);
             mensagem = "Usuario  Inserido com Sucesso";
-            this.setReturnPage("/cadastraUsuario.jsp");
             this.getRequest().setAttribute("mensagem", mensagem);
+            
+            //Adiciona os Usuarios na Request para enviar para a index.jsp
+            List usuarios = new ArrayList<Usuario>();
+            usuarios = (List) dao.buscaTodosUsuarios();
+            this.setReturnPage("/index.jsp");
+            this.getRequest().setAttribute("usuarios", usuarios);
         } catch (Exception ex) {
             Logger.getLogger(CadastraController.class.getName()).log(Level.SEVERE, null, ex);
         }

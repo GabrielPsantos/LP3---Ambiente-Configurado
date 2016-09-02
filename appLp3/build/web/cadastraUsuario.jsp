@@ -21,7 +21,6 @@
 
     <div class="container">
         <h1>Cadastro de Usuario</h1>
-        <h4>${mensagem}</h4>
         <form method="post" action="FrontControllerServlet?control=Cadastra">
             <div class="form-group">
                 <label>Nome :</label>
@@ -29,7 +28,7 @@
             </div>
             <div class="form-group">
                 <label>Sobrenome :</label>
-                <input type="text" class="form-control" id="nome" name="sobrenome" placeholder="Digite o sobrenome:"/>
+                <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Digite o sobrenome:"/>
             </div>
             <input class="btn btn-success" type="submit" value="Cadastrar Usuario" />
             <br><br>

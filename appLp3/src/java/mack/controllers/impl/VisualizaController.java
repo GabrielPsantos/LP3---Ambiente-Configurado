@@ -23,14 +23,15 @@ public class VisualizaController extends AbstractController{
     @Override
     public void execute() {
             try {
-            
+            Integer acao = Integer.parseInt(this.getRequest().getParameter("edit"));
+            String pagina = (acao == 1) ? "/editaUsuario.jsp" : "/visualizaUsuario.jsp";
             UsuarioDAO dao = UsuarioDAOFactory.getUsuarioDAO();
             Integer id = Integer.parseInt(this.getRequest().getParameter("id"));
             Usuario usuario = dao.buscaUsuarioPorId(id);
-            this.setReturnPage("/visualizaUsuario.jsp");
+            this.setReturnPage(pagina);
             this.getRequest().setAttribute("usuario", usuario);
         } catch (Exception ex) {
-            Logger.getLogger(ListaController.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(VisualizaController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
