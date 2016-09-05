@@ -1,0 +1,58 @@
+05-Sep-2016 00:13:14.247 WARN [http-nio-8080-exec-60] <unknown>.<unknown> HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+05-Sep-2016 00:37:26.396 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardWrapper.unload Waiting for 2 instance(s) to be deallocated for Servlet [FrontControllerServlet]
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_92\jre
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24
+05-Sep-2016 00:39:09.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24
+05-Sep-2016 00:39:09.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\conf\logging.properties
+05-Sep-2016 00:39:09.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Sep-2016 00:39:09.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\endorsed
+05-Sep-2016 00:39:09.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24
+05-Sep-2016 00:39:09.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24
+05-Sep-2016 00:39:09.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\temp
+05-Sep-2016 00:39:09.462 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_92;C:\Users\Gabriel\AppData\Roaming\npm;.
+05-Sep-2016 00:39:10.261 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Sep-2016 00:39:10.665 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Sep-2016 00:39:10.670 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Sep-2016 00:39:10.674 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Sep-2016 00:39:10.675 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2713 ms
+05-Sep-2016 00:39:10.891 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Sep-2016 00:39:10.891 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+05-Sep-2016 00:39:10.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\AppExemplo.war
+05-Sep-2016 00:39:11.744 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\AppExemplo.war has finished in 768 ms
+05-Sep-2016 00:39:12.386 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\appLp3.war
+05-Sep-2016 00:39:15.740 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2016 00:39:15.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\appLp3.war has finished in 3,384 ms
+05-Sep-2016 00:39:15.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\docs
+05-Sep-2016 00:39:15.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\docs has finished in 64 ms
+05-Sep-2016 00:39:15.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\examples
+05-Sep-2016 00:39:19.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\examples has finished in 3,277 ms
+05-Sep-2016 00:39:19.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\host-manager
+05-Sep-2016 00:39:19.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\host-manager has finished in 102 ms
+05-Sep-2016 00:39:19.217 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\manager
+05-Sep-2016 00:39:19.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\manager has finished in 137 ms
+05-Sep-2016 00:39:19.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\ROOT
+05-Sep-2016 00:39:19.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\ROOT has finished in 109 ms
+05-Sep-2016 00:39:19.488 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Sep-2016 00:39:19.501 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Sep-2016 00:39:19.505 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8829 ms
+05-Sep-2016 00:42:42.210 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/appLp3]
+05-Sep-2016 00:42:47.566 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\appLp3.war
+05-Sep-2016 00:42:49.294 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Sep-2016 00:42:49.308 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\apache-tomcat-8.0.24\webapps\appLp3.war has finished in 1,742 ms
+05-Sep-2016 00:42:52.861 WARN [http-nio-8080-exec-10] <unknown>.<unknown> HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+05-Sep-2016 00:42:52.863 WARN [http-nio-8080-exec-10] org.hibernate.ejb.HibernatePersistence.logDeprecation HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+05-Sep-2016 00:42:52.871 WARN [http-nio-8080-exec-10] org.hibernate.ejb.HibernatePersistence.logDeprecation HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+05-Sep-2016 00:42:53.219 INFO [http-nio-8080-exec-10] null.null HHH000204: Processing PersistenceUnitInfo [
+	name: UsuarioPU
+	...]
+05-Sep-2016 00:42:53.379 INFO [http-nio-8080-exec-10] null.null HHH000412: Hibernate Core {4.3.1.Final}
+05-Sep-2016 00:42:53.384 INFO [http-nio-8080-exec-10] null.null HHH000206: hibernate.properties not found
+05-Sep-2016 00:42:53.388 INFO [http-nio-8080-exec-10] null.null HHH000021: Bytecode provider name : javassist
