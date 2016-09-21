@@ -1,14 +1,14 @@
-Sun Sep 04 22:52:23 BRT 2016 : Apache Derby Servidor de Rede - 10.10.2.0 - (1582446) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+Wed Sep 21 15:00:03 BRT 2016 : Apache Derby Servidor de Rede - 10.10.2.0 - (1582446) iniciado e pronto para aceitar conexões na porta 1527 em {3}
 ----------------------------------------------------------------
-Sun Sep 04 23:05:03 BRT 2016:
- Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância a816c00e-0156-f80b-de9c-0000102d4f27
-no diretório de banco de dados C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\db-derby-10.10.2.0-bin\bin\meuDB 
+Wed Sep 21 15:00:06 BRT 2016:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância a816c00e-0157-4de7-8cc8-ffffa58c4e40
+no diretório de banco de dados C:\Users\gsantos\Desktop\LP3---Ambiente-Configurado\db-derby-10.10.2.0-bin\bin\meuDB 
 
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_92-b14
-user.dir=C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\db-derby-10.10.2.0-bin\bin
+java.runtime.version=1.8.0_91-b15
+user.dir=C:\Users\gsantos\Desktop\LP3---Ambiente-Configurado\db-derby-10.10.2.0-bin\bin
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
-derby.system.home=C:\Users\Gabriel\Desktop\LP3---Ambiente-Configurado\db-derby-10.10.2.0-bin\bin
+derby.system.home=C:\Users\gsantos\Desktop\LP3---Ambiente-Configurado\db-derby-10.10.2.0-bin\bin
 Carregador de classe do banco de dados iniciado - derby.database.classpath=''
